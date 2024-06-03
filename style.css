@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(205, 242, 255, 0.952);
+    
+}
+
+.top {
+    text-align: center;
+
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 100px;
+   
+}
+
+h3,h2 {
+    text-align: center;
+}
+
+.free {
+    background-color: white;
+    
+
+    
+   
+
+}
+
+button {
+    background-color: forestgreen;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.pro { 
+   background-border: 2px solid;
+}
+.flow {
+    background-color: green;
+    align-items: center;
+    overflow: visible;
+}
