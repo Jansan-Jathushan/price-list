@@ -13,6 +13,7 @@ body {
     justify-content: center;
     padding: 50px;
     margin: 100px;
+    column-gap: 30px;
    
 }
 
@@ -22,24 +23,45 @@ h3,h2 {
 
 .free {
     background-color: white;
-    
-
+    text-align: center;
+    border-radius: 10px;
     
    
 
+}
+.big fieldset:hover {
+    
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.big div:hover {
+    
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 button {
     background-color: forestgreen;
     border-radius: 10px;
-    align-items: center;
+    object-position: center;
+
 }
 
-.pro { 
-   background-border: 2px solid;
-}
-.flow {
+ 
+legend {
     background-color: green;
-    align-items: center;
-    overflow: visible;
+    text-align: center;
+    
+}
+fieldset{
+    border-color: green;
+    background-color: white;
+    text-align: center;
+   border-radius: 10px;
+   
+}
+
+ul {
+    text-align: left;
 }
